@@ -13,8 +13,12 @@ function numeroSimetrico(num) {
   // numeroSimetrico(11711) devuelve true
 
   // Tu código:
-  const num1 = num.toString().split('').reverse().join('')
- return num1 == num
+  let num1 = num.toString() 
+    let nuevaCadena = "";
+    for (let x = num1.length - 1; x >= 0; x--) {
+        nuevaCadena += num1[x];
+    }
+    return nuevaCadena == num
  }
   
 
