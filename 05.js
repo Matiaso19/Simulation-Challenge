@@ -15,10 +15,13 @@ function pluck(array, propiedad) {
 
   // Tu código acá:
   
-  const nuevoArray = array.map(x => {
-    return array.x[propiedad]
-  })
+  var product = [];
+  product = array.map(function (a){
+  return a[propiedad];
+})
+return product;
 }
+
 
 // No modifiques nada debajo de esta linea //
 
